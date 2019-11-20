@@ -1,0 +1,17 @@
+div {
+  border: 1px solid black;
+  height: 100px;
+}
+
+.hero {
+  height: 1500px;
+}
+
+header {
+  color: #f4f7f6;
+}
+
+nav {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

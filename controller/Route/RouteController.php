@@ -18,7 +18,7 @@ class RouteController
 			$op = isset($_REQUEST['op']) ? $_REQUEST['op'] : NULL;
 			switch ($op) {
 
-                
+
 
 				// DEFAULT
 				default:
@@ -35,7 +35,7 @@ class RouteController
 
 	public function collectDefault(){
 		//landings page
-		include 'view/landing.php';
+		include 'view/Landingspage/landing.php';
     }
     
 }

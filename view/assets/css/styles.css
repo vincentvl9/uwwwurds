@@ -1,17 +1,58 @@
 div {
-  border: 1px solid black;
   height: 100px;
 }
 
+.title {
+  text-align: center;
+}
+
 .hero {
-  height: 1500px;
+  z-index: -1;
+  height: 500px;
+}
+
+.hero div {
+  height: 100%;
+}
+
+.best-sites {
+  height: 500px;
+}
+
+.best-sites div {
+  height: 100%;
+}
+
+.nominees {
+  height: 500px;
+}
+
+.directory {
+  height: 500px;
+}
+
+.resources {
+  height: 500px;
 }
 
 header {
-  color: #f4f7f6;
+  background-color: #f4f7f6;
 }
 
 nav {
   width: 100%;
+  z-index: 3;
+}
+
+.nav-item {
+  margin: auto;
+  background-color: #f4f7f6;
+}
+
+.menu-btn {
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="view/assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/60370f3a4b.js" crossorigin="anonymous"></script>
 
     
 </head>
@@ -20,31 +21,30 @@
         
         </div>
         <div class="col-10">
-        aaaaaaaaaaa
+        
         </div>
         <div class="col-1">
         
         </div>
     </div>
 </header>
-<nav>
 
 <div class="row sticky-top">
-        <div class="col-1">
-2
+        <div class="col-1 nav-item menu-btn">
+            <li class="fas fa-bars"></li>MENU
         </div>
-        <div class="col-1">
+        <div class="col-1 nav-item">
 3
         </div>
-        <div class="col-7">
-4
+        <div class="col-7 nav-item title">
+            <h1>uwwwurds</h1>
         </div>
-        <div class="col-1">
+        <div class="col-1 nav-item">
 5
         </div>
-        <div class="col-2">
+        <div class="col-2 nav-item">
 6
         </div>
 </div>
-</nav>
+
 

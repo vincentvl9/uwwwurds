@@ -1,5 +1,5 @@
 
-<div class="row footer">
+<div class="footer">
     Footer
 </div>
 </body>

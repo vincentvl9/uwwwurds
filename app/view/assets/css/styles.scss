@@ -1,58 +1,231 @@
 
+* {
+    box-sizing: block;
+}
+
+body {
+    width: 100%;
+}
+
 div {
     height: 100px;
 }
-.title {
-    text-align: center;
-}
 
 .hero {
+    width: 100%;
     z-index: -1;
     height: 500px;
     div {
         height: 100%;
+        opacity: rgba(0, 0, 0, 0.3);
     }
+
+    .hero-img {
+        width: 100%;
+        background-image: url('../images/404notfound.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 100%;
+        .hero-img-overlay {
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 100%;
+            z-index: 2;
+            transition: background-color 1s;
+            color: white;
+            font-size: 1.5em;
+            float: left;
+            padding: 50px;
+            #sotd-title {
+                font-weight: bold;
+            }
+            #sotd-date {
+                font-weight: lighter;
+            }
+            .share {
+                position: absolute;
+                right: 50px;
+                top: 50px;
+                .share-btn {
+                    border: 1px solid white;
+                    padding: 10px;
+                    border-radius: 100%;
+                    transition: color 0.5s, border 0.5s;
+                }
+                .share-btn:hover {
+                    cursor: pointer;
+                    color: #49C5B6;
+                    border: 1px solid #49C5B6;
+                    border-radius: 100%;
+                }
+            }
+        }
+    
+        .hero-img-overlay:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+            cursor: pointer;
+            height: 500px;
+        }
+    }
+
+
 }
 
 .best-sites {
     height: 500px;
-    div {
-        height: 100%;
+    margin-left: 2.5px;
+    margin-right: -15px;
+    padding: 50px;
+    .sotd,.motd {
+        div {
+            height: 100%;
+        }
     }
 }
 
 .nominees {
     height: 500px;
+    padding: 50px;
 }
 
 .directory {
     height: 500px;
+    padding: 50px;
 }
 
 .resources {
     height: 500px;
+    padding: 50px;
 }
 
 header {
     background-color: #f4f7f6;
+
+// Header items
+    .h-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+// Language button
+    .lang-btn {
+        font-size: 1.5em;
+        transition: color 0.5s;
+    }
+    .lang-btn:hover {
+        cursor: pointer;
+        color: grey;
+    }
+
+// Motto text item
+    .motto {
+        font-size: 1.5em;
+    }
+
+// Social media buttons
+    .social-media {
+        i {
+            font-size: 1.2em;
+            margin: 5px;
+            transition: color 0.5s;
+        }
+        .media-btn:hover {
+            cursor: pointer;
+            color: grey;
+        }
+    }
+    
 }
 
-nav {
+.nav {
 width: 100%;
 z-index: 3;
+background-color: #f4f7f6;
+border-bottom: 0.2px solid #e4e4e4;
+border-top: 0.2px solid #e4e4e4;
 
-}
+//Nav items
+    .nav-item {
+        margin: auto; 
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+// Menu button
+    .menu-btn{
+        height: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-right: 0.2px solid #e4e4e4;
+        transition: color 0.5s;
+        padding: 5px;
+        font-size: 1.2em;
+    }
+    .menu-btn:hover {
+        cursor: pointer;
+        color: grey;
+    }
 
-.nav-item {
+// Side navigation
+    .sidenav {
+        display: none;
+    }
+
+    .search {
+        .search-btn {
+            font-size: 1.2em;
+            transition: color 0.5s;
+        }
+        .search-btn:hover {
+            cursor: pointer;
+            color: grey;
+        }
+    }
     
-    margin: auto;
-    background-color: #f4f7f6;
 
+    .title {
+        font-size: 3.0em;
+        font-family: Title;
+    }
+    .title:hover {
+        cursor: pointer;
+    }
+
+    .register-btn {
+        position: absolute;
+        color: black;
+        width: 200px;
+        right: 250px;
+        font-weight: bold;
+        transition: color 0.5s;
+    }
+
+    .register-btn:hover {
+        cursor: pointer;
+        color: grey;
+    }
+
+    .submit-item-btn {
+        position: absolute;
+        width: 250px;
+        background-color: #49C5B6;
+        color: white;
+        font-weight: bold;
+        right: 0;
+        transition: background-color 0.5s;
+    }    
+    .submit-item-btn:hover {
+        cursor: pointer;
+        background-color: #338A7F;
+    }
 }
 
-.menu-btn{
-    height: 100%;
-    text-align: center;
-    margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+@font-face {
+    font-family: Title;
+    src: url(../fonts/Engadget.ttf);
 }
+
+

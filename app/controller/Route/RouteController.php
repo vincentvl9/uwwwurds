@@ -35,7 +35,7 @@ class RouteController
 
 	public function collectDefault(){
 		//landings page
-		include 'view/Landingspage/landing.php';
+		include '../app/view/Landingspage/Landingspage.php';
     }
     
 }

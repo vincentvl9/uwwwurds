@@ -1,6 +1,6 @@
 <?php
 
-    include '../app/view/header.php';
+    include 'view/header.php';
 
 ?>
 
@@ -53,6 +53,6 @@
 
 <?php
 
-    include '../app/view/footer.php';
+    include 'view/footer.php';
 
 ?>

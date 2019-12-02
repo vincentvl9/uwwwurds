@@ -7,20 +7,25 @@
 <div class="hero">
     <div class="hero-img">
         <div class="hero-img-overlay">
-            <div class="hero-header"><span id="sotd-title">Site of the Day</span> <span id="sotd-date">December 01, 2019</span></div>
+            <div class="hero-header">
+                <span id="sotd-title">Site of the Day</span> 
+                <span id="sotd-date">December 01, 2019</span>
+            </div>
             <div class="share"><i class="fas fa-share-alt share-btn"></i></div>
             <div class="hero-info">
                 <div class="sotd-name">
                     Beautiful error.
                 </div>
                 <div class="sotd-creator">
-
+                    By 404 organisation from Madagaskar with 8.36
                 </div>
                 <div class="sotd-results">
-
+                    
                 </div>
             </div>
-            <div class=""
+            <div class="hero-footer">
+
+            </div>
         </div>
     </div>
 </div>

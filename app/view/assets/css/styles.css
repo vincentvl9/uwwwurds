@@ -1,0 +1,248 @@
+* {
+  -webkit-box-sizing: block;
+          box-sizing: block;
+}
+
+body {
+  width: 100%;
+}
+
+div {
+  height: 100px;
+}
+
+.hero {
+  width: 100%;
+  z-index: -1;
+  height: 500px;
+}
+
+.hero div {
+  height: 100%;
+  opacity: rgba(0, 0, 0, 0.3);
+}
+
+.hero .hero-img {
+  width: 100%;
+  background-image: url("../images/404notfound.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+}
+
+.hero .hero-img .hero-img-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+  color: white;
+  font-size: 1.5em;
+  float: left;
+  padding: 50px;
+}
+
+.hero .hero-img .hero-img-overlay #sotd-title {
+  font-weight: bold;
+}
+
+.hero .hero-img .hero-img-overlay #sotd-date {
+  font-weight: lighter;
+}
+
+.hero .hero-img .hero-img-overlay .share {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.hero .hero-img .hero-img-overlay .share .share-btn {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 100%;
+  -webkit-transition: color 0.5s, border 0.5s;
+  transition: color 0.5s, border 0.5s;
+}
+
+.hero .hero-img .hero-img-overlay .share .share-btn:hover {
+  cursor: pointer;
+  color: #49C5B6;
+  border: 1px solid #49C5B6;
+  border-radius: 100%;
+}
+
+.hero .hero-img .hero-img-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  height: 500px;
+}
+
+.best-sites {
+  height: 500px;
+  margin-left: 2.5px;
+  margin-right: -15px;
+  padding: 50px;
+}
+
+.best-sites .sotd div, .best-sites .motd div {
+  height: 100%;
+}
+
+.nominees {
+  height: 500px;
+  padding: 50px;
+}
+
+.directory {
+  height: 500px;
+  padding: 50px;
+}
+
+.resources {
+  height: 500px;
+  padding: 50px;
+}
+
+header {
+  background-color: #f4f7f6;
+}
+
+header .h-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+header .lang-btn {
+  font-size: 1.5em;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+header .lang-btn:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+header .motto {
+  font-size: 1.5em;
+}
+
+header .social-media i {
+  font-size: 1.2em;
+  margin: 5px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+header .social-media .media-btn:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.nav {
+  width: 100%;
+  z-index: 3;
+  background-color: #f4f7f6;
+  border-bottom: 0.2px solid #e4e4e4;
+  border-top: 0.2px solid #e4e4e4;
+}
+
+.nav .nav-item {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .menu-btn {
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-right: 0.2px solid #e4e4e4;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.nav .menu-btn:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.nav .sidenav {
+  display: none;
+}
+
+.nav .search .search-btn {
+  font-size: 1.2em;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.nav .search .search-btn:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.nav .title {
+  font-size: 3.0em;
+  font-family: Title;
+}
+
+.nav .title:hover {
+  cursor: pointer;
+}
+
+.nav .register-btn {
+  position: absolute;
+  color: black;
+  width: 200px;
+  right: 250px;
+  font-weight: bold;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.nav .register-btn:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.nav .submit-item-btn {
+  position: absolute;
+  width: 250px;
+  background-color: #49C5B6;
+  color: white;
+  font-weight: bold;
+  right: 0;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.nav .submit-item-btn:hover {
+  cursor: pointer;
+  background-color: #338A7F;
+}
+
+@font-face {
+  font-family: Title;
+  src: url(../fonts/Engadget.ttf);
+}
+/*# sourceMappingURL=styles.css.map */
